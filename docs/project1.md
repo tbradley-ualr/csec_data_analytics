@@ -38,7 +38,10 @@ and MongoDB environments.
 
 1. Explain the performance difference observed before and after the index creation.
 2. Detail the size of the index and describe the content being stored.
-3. Accurately denote the correct Landeau symbol for the provided relations.
+3. Design a Mongo document model based on a topic of your interest, ensuring it contains a minimum of 5 attributes. 
+Implement this model within `csec_data_analytics_app/models.py`. Subsequently, develop a new management command to 
+facilitate the insertion of this document into MongoDB.
+4. Accurately denote the correct Landeau symbol for the provided relations.
 
 ## Submission Guidelines
 
@@ -49,4 +52,4 @@ Prepare a comprehensive report containing:
   - Date
   - Course number
 - Detailed responses to each of the assignment questions.
-- Relevant screenshots showcasing the execution tests and the configured indices in MongoDB Compass.
+- Relevant screenshots showcasing the execution tests, configured indices, and your inserted document in MongoDB Compass.
