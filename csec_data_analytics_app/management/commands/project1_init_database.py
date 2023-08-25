@@ -13,7 +13,7 @@ class Command(BaseCommand):
 
         # Use the faker library to generate fake data
         fake = Faker()
-        for i in range(1000000):
+        for i in range(100000):
             address_obj = UserAddress(street=fake.street_address(), city=fake.city(), state=fake.state(),
                                       country=fake.country(), zip=fake.postcode())
             new_user = User(first_name=fake.first_name(), last_name=fake.last_name(), email=fake.email(),

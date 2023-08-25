@@ -4,7 +4,8 @@
 
 1. **Environment Setup**
    
-   Open the project folder in PyCharm. It should prompt you to set up a virtual environment using Python 3.11 and synchronize with the `requirements.txt` file present in the project root.
+   Open the project folder in PyCharm. It should prompt you to set up a virtual environment using Python 3.11 and 
+2. synchronize with the `requirements.txt` file present in the project root.
 
    Alternatively, you can manually set up the environment by executing the following commands:
 
@@ -29,16 +30,21 @@
 
 4. **Running the Django Server**
 
-   Press the **Play** (▶️) or **Debug** button in the top right-hand corner. The terminal should display that the server is running on port 8000.
+   Press the **Play** (▶️) or **Debug** button in the top right-hand corner. The terminal should display that the 
+5. server is running on port 8000.
 
 5. **Creating and Running Management Commands**
 
-   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name the file according to the command you intend.
+   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name 
+   - the file according to the command you intend.
    - Refer to the template in `csec_data_analytics_app/management/commands/my_command.py`.
    
    To execute your command:
-   1. Go to `Tools` -> `Run manage.py Task`. This opens a terminal where you can input your command along with any desired parameters.
-   2. Alternatively, adjust your Django server run configuration. In the configuration settings, click on `Run custom command`. Enter your command, ensuring you remove port 8000 and add any relevant parameters, especially if debugging is needed.
+   1. Go to `Tools` -> `Run manage.py Task`. This opens a terminal where you can input your command along with any 
+   2. desired parameters.
+   2. Alternatively, adjust your Django server run configuration. In the configuration settings, click on 
+   3. `Run custom command`. Enter your command, ensuring you remove port 8000 and add any relevant parameters, 
+   4. especially if debugging is needed.
 
 ## MongoDB Configuration
 
