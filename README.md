@@ -13,14 +13,19 @@
    python -m venv venv
    python -m pip install -r requirements.txt
    ```
+   To activate virtual envronment: `source venv/bin/activate`
+   To deactivate venv: `venv`
 
 2. **Enable Django Support**
 
-   - Navigate to `File` -> `Settings` -> `Languages and Frameworks` -> `Django`.
+   - Navigate to `File` -> `Settings` -> `Languages and Frameworks` -> `Django`. <br>
+     (On Mac: Navigate to `PyCharm` -> `Preferences` -> `Languages and Frameworks` -> `Django`.)
    - Check the box to enable Django support.
    - Set the Django Project Root to this project folder's root.
    - For the settings, choose `csec_data_analytics/settings.py`.
    - Make sure the manage script points to `manage.py` located at the project root.
+     ![image](https://github.com/Emmaka9/csec_data_analytics/assets/28539986/993b7874-d954-4f67-8faf-92979124bee9)
+
 
 3. **Django Run Configuration**
 
@@ -31,17 +36,16 @@
 4. **Running the Django Server**
 
    Press the **Play** (▶️) or **Debug** button in the top right-hand corner. The terminal should display that the 
-5. server is running on port 8000.
+   server is running on port 8000.
 
 5. **Creating and Running Management Commands**
 
-   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name 
-   - the file according to the command you intend.
+   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name the file according to the command you intend.
    - Refer to the template in `csec_data_analytics_app/management/commands/my_command.py`.
    
    To execute your command:
    1. Go to `Tools` -> `Run manage.py Task`. This opens a terminal where you can input your command along with any 
-   2. desired parameters.
+      desired parameters.
    2. Alternatively, adjust your Django server run configuration. In the configuration settings, click on 
    3. `Run custom command`. Enter your command, ensuring you remove port 8000 and add any relevant parameters, 
    4. especially if debugging is needed.
@@ -50,7 +54,8 @@
 
 1. **Initialize Database and User**
 
-   Start MongoDB Shell by running:
+   Start MongoDB on your machine. (Follow this link to install and start MongoDB for your operating system: https://www.mongodb.com/docs/manual/administration/install-community/) <br>
+   Connect to MongoDB shell by running:
 
    ```commandline
    mongosh
