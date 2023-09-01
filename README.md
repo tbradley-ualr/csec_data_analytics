@@ -22,6 +22,8 @@
    - Set the Django Project Root to this project folder's root.
    - For the settings, choose `csec_data_analytics/settings.py`.
    - Make sure the manage script points to `manage.py` located at the project root.
+     ![image](https://github.com/Emmaka9/csec_data_analytics/assets/28539986/993b7874-d954-4f67-8faf-92979124bee9)
+
 
 3. **Django Run Configuration**
 
