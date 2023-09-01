@@ -16,7 +16,7 @@
 
 2. **Enable Django Support**
 
-   - Navigate to `File` -> `Settings` -> `Languages and Frameworks` -> `Django`.
+   - Navigate to `File` -> `Settings` -> `Languages and Frameworks` -> `Django`. <br>
      (On Mac: Navigate to `PyCharm` -> `Preferences` -> `Languages and Frameworks` -> `Django`.)
    - Check the box to enable Django support.
    - Set the Django Project Root to this project folder's root.
