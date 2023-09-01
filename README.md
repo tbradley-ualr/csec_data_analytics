@@ -54,7 +54,8 @@
 
 1. **Initialize Database and User**
 
-   Start MongoDB Shell by running:
+   Start MongoDB on your machine. (Follow this link to install and start MongoDB for your operating system: https://www.mongodb.com/docs/manual/administration/install-community/) <br>
+   Connect to MongoDB shell by running:
 
    ```commandline
    mongosh
