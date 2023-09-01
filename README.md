@@ -45,7 +45,7 @@
    
    To execute your command:
    1. Go to `Tools` -> `Run manage.py Task`. This opens a terminal where you can input your command along with any 
-   2. desired parameters.
+      desired parameters.
    2. Alternatively, adjust your Django server run configuration. In the configuration settings, click on 
    3. `Run custom command`. Enter your command, ensuring you remove port 8000 and add any relevant parameters, 
    4. especially if debugging is needed.
