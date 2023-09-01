@@ -36,12 +36,11 @@
 4. **Running the Django Server**
 
    Press the **Play** (▶️) or **Debug** button in the top right-hand corner. The terminal should display that the 
-5. server is running on port 8000.
+   server is running on port 8000.
 
 5. **Creating and Running Management Commands**
 
-   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name 
-   - the file according to the command you intend.
+   - To create a new management command, add a Python file under `csec_data_analytics_app/management/commands`. Name the file according to the command you intend.
    - Refer to the template in `csec_data_analytics_app/management/commands/my_command.py`.
    
    To execute your command:
