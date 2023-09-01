@@ -13,6 +13,7 @@
    python -m venv venv
    python -m pip install -r requirements.txt
    ```
+   To activate virtual envronment: `source venv/bin/activate`
 
 2. **Enable Django Support**
 
