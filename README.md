@@ -17,6 +17,7 @@
 2. **Enable Django Support**
 
    - Navigate to `File` -> `Settings` -> `Languages and Frameworks` -> `Django`.
+     (On Mac: Navigate to `PyCharm` -> `Preferences` -> `Languages and Frameworks` -> `Django`.)
    - Check the box to enable Django support.
    - Set the Django Project Root to this project folder's root.
    - For the settings, choose `csec_data_analytics/settings.py`.
