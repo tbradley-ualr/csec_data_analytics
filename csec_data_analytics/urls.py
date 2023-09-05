@@ -14,9 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
 from django.urls import path
+from csec_data_analytics_app.views.views_vulnerability import Vulnerability
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('vulnerability/', Vulnerability.as_view(), name='vulnerability'),
 ]
