@@ -41,7 +41,7 @@ and MongoDB environments.
 3. Design a Mongo document model based on a topic of your interest, ensuring it contains a minimum of 5 attributes. 
 Implement this model within `csec_data_analytics_app/models.py`. Subsequently, develop a new management command to 
 facilitate the insertion of this document into MongoDB.
-4. Accurately denote the correct Landeau symbol for the provided relations.
+4. Accurately denote the correct Landau symbol for the provided relations.
 ![image](https://github.com/pdhuff/csec_data_analytics/assets/50633591/4bd1dd93-af38-4ebc-82b5-34214a9eb7eb)
 
 
