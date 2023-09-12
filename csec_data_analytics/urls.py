@@ -15,8 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from csec_data_analytics_app.views.views_vulnerability import Vulnerability
+from csec_data_analytics_app.views.views_vulnerability import VulnerabilityList, VulnerabilityDetail
 
 urlpatterns = [
-    path('vulnerability/', Vulnerability.as_view(), name='vulnerability'),
+    path('vulnerability/', VulnerabilityList.as_view(), name='vulnerability-list'),
+    path('vulnerability/<int:pk>/', VulnerabilityDetail.as_view(), name='vulnerability-detail')
 ]

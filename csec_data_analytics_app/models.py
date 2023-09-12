@@ -15,3 +15,9 @@ class User(Document):
     last_name = StringField(required=True, null=False)
     email = EmailField(required=True, null=False)
     address = EmbeddedDocumentField(UserAddress, required=True)
+
+
+class Vulnerability(Document):
+    cve_id = StringField(required=True, null=False)
+    attacker_vector_type = StringField(required=True, null=False)
+
