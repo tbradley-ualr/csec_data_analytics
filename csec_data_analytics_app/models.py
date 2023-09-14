@@ -19,5 +19,5 @@ class User(Document):
 
 class Vulnerability(Document):
     cve_id = StringField(required=True, null=False)
-    attacker_vector_type = StringField(required=True, null=False)
+    attack_vector_type = StringField(required=True, null=False)
 
