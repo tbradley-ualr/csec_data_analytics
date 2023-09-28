@@ -1,8 +1,10 @@
 from django.core.management.base import BaseCommand
+from csec_data_analytics_app.utilities.nvd_client import NVDClient
 
 
 class Command(BaseCommand):
     help = 'Describes what your command does.'
 
     def handle(self, *args, **kwargs):
-        self.stdout.write('Hello from my custom command!')
+        nvd_client = NVDClient()
+        nvd_client.run()
