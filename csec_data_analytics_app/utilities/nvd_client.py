@@ -2,7 +2,7 @@ import os
 import requests
 import json
 from datetime import datetime, timedelta
-
+import requests
 
 class NVDClient:
     MAX_RESULTS_PER_REQUEST = 2000
@@ -42,3 +42,5 @@ class NVDClient:
         next_index = returned_content['startIndex'] + self.MAX_RESULTS_PER_REQUEST
         fetch_next = True if next_index < returned_content['totalResults'] else False
         return fetch_next, next_index
+
+
